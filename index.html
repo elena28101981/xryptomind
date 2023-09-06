@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/logo-xzone.svg"
+      type="image/x-icon"
+    />
+    <!--=============== GOOGLE FONTS ===============-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <title>XZone.</title>
+  </head>
+  <body>
+    <!-- <img src="./assets/img/shape-bg.png" alt="shape" class="shape__bg" /> -->
+
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav">
+        <a href="#" class="nav__logo">
+          <img src="./assets/img/logo-xzone.svg" alt="logo-img" />
+          Zone.
+        </a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About us</a>
+            </li>
+            <li class="nav__item">
+              <a href="#service" class="nav__link">Service</a>
+            </li>
+            <li class="nav__item">
+              <a href="#pricing" class="nav__link">Pricing</a>
+            </li>
+            <li class="nav__item">
+              <a href="#blog" class="nav__link">Blog</a>
+            </li>
+          </ul>
+
+          <!--Close button-->
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+
+          <img class="nav__img" src="./assets/img/nav-bat.png" alt="nav" />
+        </div>
+        <button class="header-btn">Contact Us</button>
+        <!--Tooggle buttom-->
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-4-line"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home container">
+        <div class="elipse"></div>
+        <div class="home-container">
+          <div class="left-home-container">
+            <h1>XryptoMind Technologies</h1>
+            <p>Decoding the Secrets of Crypto Future</p>
+            <div class="home-btns">
+              <button class="home-btn">Join Us</button>
+
+              <button class="animated-shadow">
+                <i class="ri-play-circle-line"></i>
+                <span>Watch video</span>
+              </button>
+            </div>
+          </div>
+          <div class="right-home-container">
+            <img src="./assets/img/new-6.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <!--==================== OUR SERVISE ====================-->
+
+      <section class="servise container">
+        <div class="elipse-serv-1 elipse-serv"></div>
+        <div class="elipse-serv-2 elipse-serv"></div>
+        <div class="elipse-serv-3 elipse-serv"></div>
+        <div class="elipse-serv-4 elipse-serv"></div>
+        <div class="service-container">
+          <div class="servive-title">
+            <h2>Our Service</h2>
+            <p>
+              We turn information into actionable insights We work to understand
+              your issues <br />
+              and are driven to ask better questions in the pursuit of making
+              work.
+            </p>
+          </div>
+
+          <!--Slider-->
+          <div class="slider1">
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="card swiper-slide">
+                  <div class="card-body">
+                    <div class="card-background">
+                      <div class="servisec-icon icon-bg1">
+                        <img
+                          src="assets/img/icons-services/order-managment.svg"
+                          alt=""
+                        />
+                      </div>
+                      <h5>Order Management</h5>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur the adipiscing
+                        elit. Sed quis accumsan nisi Ut ut felis congue nisl
+                        hendrerit commodo.
+                      </p>
+                      <button class="watch-video-btn">
+                        <span>Learn More</span>
+                        <i class="ri-arrow-right-line"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="card swiper-slide">
+                  <div class="card-body">
+                    <div class="card-background">
+                      <div class="servisec-icon icon-bg2">
+                        <img
+                          src="assets/img/icons-services/social-assistant.svg"
+                          alt=""
+                        />
+                      </div>
+                      <h5>Social Assistant</h5>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur the adipiscing
+                        elit. Sed quis accumsan nisi Ut ut felis congue nisl
+                        hendrerit commodo.
+                      </p>
+                      <button class="watch-video-btn">
+                        <span>Learn More</span>
+                        <i class="ri-arrow-right-line"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="card swiper-slide">
+                  <div class="card-body">
+                    <div class="card-background">
+                      <div class="servisec-icon icon-bg3">
+                        <img
+                          src="assets/img/icons-services/crypto-platform.svg"
+                          alt=""
+                        />
+                      </div>
+                      <h5>Crypto Platform</h5>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur the adipiscing
+                        elit. Sed quis accumsan nisi Ut ut felis congue nisl
+                        hendrerit commodo.
+                      </p>
+                      <button class="watch-video-btn">
+                        <span>Learn More</span>
+                        <i class="ri-arrow-right-line"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+            <div class="swiper-button-next next1"></div>
+            <div class="swiper-button-prev prev1"></div>
+          </div>
+
+          <div class="slider2">
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="card swiper-slide">
+                  <div class="card-body">
+                    <div class="card-background">
+                      <div class="servisec-icon icon-bg4">
+                        <img
+                          src="assets/img/icons-services/assets.svg"
+                          alt=""
+                        />
+                      </div>
+                      <h5>Smart Trading Modules</h5>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur the adipiscing
+                        elit. Sed quis accumsan nisi Ut ut felis congue nisl
+                        hendrerit commodo.
+                      </p>
+                      <button class="watch-video-btn">
+                        <span>Learn More</span>
+                        <i class="ri-arrow-right-line"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="card swiper-slide">
+                  <div class="card-body">
+                    <div class="card-background">
+                      <div class="servisec-icon icon-bg5">
+                        <img
+                          src="assets/img/icons-services/analyzer.svg"
+                          alt=""
+                        />
+                      </div>
+                      <h5>Analyzer of the News</h5>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur the adipiscing
+                        elit. Sed quis accumsan nisi Ut ut felis congue nisl
+                        hendrerit commodo.
+                      </p>
+                      <button class="watch-video-btn">
+                        <span>Learn More</span>
+                        <i class="ri-arrow-right-line"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="card swiper-slide">
+                  <div class="card-body">
+                    <div class="card-background">
+                      <div class="servisec-icon icon-bg6">
+                        <img
+                          src="assets/img/icons-services/module.svg"
+                          alt=""
+                        />
+                      </div>
+                      <h5>Module of Price</h5>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur the adipiscing
+                        elit. Sed quis accumsan nisi Ut ut felis congue nisl
+                        hendrerit commodo.
+                      </p>
+                      <button class="watch-video-btn">
+                        <span>Learn More</span>
+                        <i class="ri-arrow-right-line"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== INFORMATION ====================-->
+
+      <section class="information container">
+        <div class="elipse-inf1 elipse-serv"></div>
+        <div class="elipse-inf2 elipse-serv"></div>
+        <div class="information-wrapper">
+          <div class="left-content">
+            <div class="inf-image inf-item">
+              <img src="assets/img/new-1.png" alt="" />
+            </div>
+            <div class="inf-text inf-item">
+              <h3>Pioneering Cryptocurrency's Uncharted Realms</h3>
+              <p>
+                At XryptoMind Technologies, we embark on a journey into the
+                uncharted realms of cryptocurrency. Through our innovative blend
+                of artificial intelligence and financial expertise, we
+                illuminate the obscured paths of this evolving landscape. Our
+                solutions decipher complexities, providing investors with
+                foresight and security. Join us in pioneering the future of
+                digital wealth management.
+              </p>
+              <button class="header-btn">Read More</button>
+            </div>
+          </div>
+          <div class="right-content">
+            <div class="inf-image inf-item">
+              <img src="assets/img/new-77.png" alt="" />
+            </div>
+            <div class="inf-text inf-item">
+              <h3>Decrypting Tomorrow's Investment Horizons</h3>
+              <p>
+                In a world of rapid technological advancement, XryptoMind
+                Technologies stands as a beacon of clarity. We specialize in
+                decrypting the enigmatic landscape of tomorrow's investments.
+                Our AI-driven solutions forecast trends, identify risks, and
+                unlock opportunities within the dynamic crypto sphere. With us,
+                you gain the power to navigate the complexities and capitalize
+                on the ever-shifting tides of the digital economy.
+              </p>
+              <button class="header-btn">Read More</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== TEAM ====================-->
+
+      <section class="container team">
+        <div class="">
+          <div class="team-text">
+            <h2>Met Our Team</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis
+              accumsan nisi Ut ut felis congue nisl hendrerit commodo.
+            </p>
+          </div>
+          <div class="slider1">
+            <div class="swiper mySwiper-team">
+              <div class="swiper-wrapper">
+                <div class="card swiper-slide">
+                  <div class="card-body">
+                    <div class="card-background-team">
+                      <div class="team-img">
+                        <img
+                          src="assets/img/img-team-social/Rectangle 56.png"
+                          alt=""
+                        />
+                      </div>
+                      <h5>Sunny Khan</h5>
+                      <p>Executive officer</p>
+                      <div class="team-social-icons">
+                        <div class="team-social-icon">
+                          <i class="ri-linkedin-fill"></i>
+                        </div>
+                        <div class="team-social-icon">
+                          <i class="ri-telegram-line"></i>
+                        </div>
+                        <div class="team-social-icon">
+                          <i class="ri-facebook-fill"></i>
+                        </div>
+
+                        <div class="team-social-icon">
+                          <i class="ri-instagram-line"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card swiper-slide">
+                  <div class="card-body">
+                    <div class="card-background-team">
+                      <div class="team-img">
+                        <img
+                          src="assets/img/img-team-social/Rectangle 57.png"
+                          alt=""
+                        />
+                      </div>
+                      <h5>Alina Jesia</h5>
+                      <p>UX/UI DESIGNER</p>
+                      <div class="team-social-icons">
+                        <div class="team-social-icon">
+                          <i class="ri-linkedin-fill"></i>
+                        </div>
+                        <div class="team-social-icon">
+                          <i class="ri-telegram-line"></i>
+                        </div>
+                        <div class="team-social-icon">
+                          <i class="ri-facebook-fill"></i>
+                        </div>
+
+                        <div class="team-social-icon">
+                          <i class="ri-instagram-line"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card swiper-slide">
+                  <div class="card-body">
+                    <div class="card-background-team">
+                      <div class="team-img">
+                        <img
+                          src="assets/img/img-team-social/Rectangle 58.png"
+                          alt=""
+                        />
+                      </div>
+                      <h5>Alex Sohag</h5>
+                      <p>BUSINESS DEVELOPMENT</p>
+                      <div class="team-social-icons">
+                        <div class="team-social-icon">
+                          <i class="ri-linkedin-fill"></i>
+                        </div>
+                        <div class="team-social-icon">
+                          <i class="ri-telegram-line"></i>
+                        </div>
+                        <div class="team-social-icon">
+                          <i class="ri-facebook-fill"></i>
+                        </div>
+
+                        <div class="team-social-icon">
+                          <i class="ri-instagram-line"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card swiper-slide">
+                  <div class="card-body">
+                    <div class="card-background-team">
+                      <div class="team-img">
+                        <img
+                          src="assets/img/img-team-social/Rectangle 59.png"
+                          alt=""
+                        />
+                      </div>
+                      <h5>Afroza Mou</h5>
+                      <p>Head of marketing</p>
+                      <div class="team-social-icons">
+                        <div class="team-social-icon">
+                          <i class="ri-linkedin-fill"></i>
+                        </div>
+                        <div class="team-social-icon">
+                          <i class="ri-telegram-line"></i>
+                        </div>
+                        <div class="team-social-icon">
+                          <i class="ri-facebook-fill"></i>
+                        </div>
+
+                        <div class="team-social-icon">
+                          <i class="ri-instagram-line"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== NEWS ====================-->
+
+      <section class="container news">
+        <div class="elipse-news elipse-serv"></div>
+        <div class="news-wrapper">
+          <div class="news-form">
+            <h2>Subscribe to get the Latest News</h2>
+            <p>
+              We recommended you to subscribe to our newspaper, <br />
+              drop your email below to get daily update about us
+            </p>
+            <div class="form">
+              <form action="">
+                <div class="subscribe-container">
+                  <input
+                    type="email"
+                    id="email"
+                    placeholder="Enter your email addres"
+                  />
+                  <button class="watch-video-btn">
+                    <img src="assets/img/subscribe.svg" alt="" />
+                    <span>Subscribe</span>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__container container">
+        <div class="footer__content">
+          <div class="footer-line1">
+            <a href="#" class="footer__logo">
+              <img src="./assets/img/logo-xzone.svg" alt="logo" />
+              Zone.
+            </a>
+            <a href="#" class="icon-footer">
+              <i class="ri-map-pin-line"></i>
+              Dhaka, Bangladesh
+            </a>
+            <a href="tel:380943833399" class="icon-footer">
+              <i class="ri-phone-line"></i>
+              0943833399
+            </a>
+            <a href="mailto:support@zone.com" class="icon-footer">
+              <i class="ri-mail-line"></i>
+              support@zone.com
+            </a>
+            <div class="footer-social-icons">
+              <i class="ri-facebook-fill"></i>
+              <i class="ri-twitter-fill"></i>
+              <i class="ri-instagram-fill"></i>
+              <i class="ri-pinterest-fill"></i>
+            </div>
+          </div>
+          <div class="footer-line2">
+            <div class="line2-left">
+              <a href="">Service</a>
+              <a href="">Order Management</a>
+              <a href="">Social Assistant</a>
+              <a href="">Crypto Platform</a>
+              <a href="">News Analyzer</a>
+            </div>
+            <div class="line2-right">
+              <a href="">Company</a>
+              <a href="">About Us</a>
+              <a href="">News</a>
+              <a href="">Our trusted partner</a>
+              <a href="">New users FAQ</a>
+            </div>
+          </div>
+          <div class="footer-line2">
+            <div class="line2-left">
+              <a href=""> Supports</a>
+              <a href="">Help center</a>
+              <a href="">Feedbcak</a>
+              <a href="">Contact us</a>
+              <a href="">Terms conditins</a>
+            </div>
+            <div class="line2-right">
+              <a href="">Resources</a>
+              <a href="">Download app</a>
+              <a href="">Blog</a>
+              <a href="">What’s new</a>
+              <a href="">Sitemap</a>
+            </div>
+          </div>
+        </div>
+        <img src="./assets/img/new-8.png" alt="img" class="footer__tree-1" />
+        <!-- <img src="./assets/img/111.png" alt="img" class="footer__tree-2" /> -->
+      </div>
+      <div class="copyright">
+        <div class="container cr-wrapper">
+          <div class="copyright-left">© 2023 Zone. - All rights reserved.</div>
+          <div class="copyright-right">
+            <a href="">Privacy</a>
+            <a href="">Security</a>
+            <a href="">Terms</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
